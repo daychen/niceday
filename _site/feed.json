@@ -1,0 +1,180 @@
+[
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+    
+    {
+      "title": "突然想起那个中东的盆友",
+      "permalink": "https://sparanoid.com/One.html",
+      "link": "https://sparanoid.com/One.html",
+      "date": "2016-08-14T00:00:00-07:00",
+      
+      "author": {
+        "name": "Day",
+        "url": "http://niceday.me/",
+        "email": "daychen013@gmail.com"
+      },
+      "content": "第一次见到伊朗老外，是在mega session上，人家一身西装革履，咋一看以为成功人士呢，然后狗腿的握了握手。\n\n后来有一次路上遇到，与他同去财务处领支票\n（为毛是支票，因为伊朗与美帝的历史遗留问题，使得他们备受压迫，连bank account都不能有，其实这时，我已经知道他跟我一样的屌丝本质了⊙﹏⊙）\n\n他得意的告诉我参加了一个活动，然后有报酬。我顿时眼里闪了光，竟然有这样的好事？\n然后他轻描淡写的跟我说，\n\n\"just take photos\"\n\n\n\n难道是业余摄影师？我顿时明了\n\n\"no, no\nbeing a model\"\n\n\n跪倒！！！\n居然忘了model 除了建模，还有一个当模特的意思啊，没办法，人家大长腿，颜值高\n",
+      "excerpt": "第一次见到伊朗老外，是在mega session上，人家一身西装革履，咋一看以为成功人士呢，然后狗腿的握了握手。\n\n",
+      "languages": null,
+      "categories": ["life"],
+      "tags": ["moment"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "路遇周华健",
+      "permalink": "https://sparanoid.com/Met-Star-when-hiking.html",
+      "link": "https://sparanoid.com/Met-Star-when-hiking.html",
+      "date": "2016-08-13T00:00:00-07:00",
+      
+      "author": {
+        "name": "Day",
+        "url": "http://niceday.me/",
+        "email": "daychen013@gmail.com"
+      },
+      "content": "陈姐去最南端的蒲台岛玩，爬山、看海景，回来的时候在码头休息等游轮渡海回市区。\n\n隐隐约约看到某明星也在码头，然后就过去用那地道的北京口音问，是周华健么？我特喜欢你的歌儿。\n没想到周特别和善，陈姐于是乐呵乐呵的拿手机拍了合照，不过还是觉得不够，就又从口袋里取单反打算多拍两张，突然，旁边阴风阵阵的传来经纪人的声音，够了，低调！低调！\n\n其实码头人不多，拍合照并没引起什么关注。\n\n不过真没想到，周华健非常善解人意的安慰她说，没事儿，老板说的话一般都是反的！（说要低调，其实就要往高调了去）\n",
+      "excerpt": "陈姐去最南端的蒲台岛玩，爬山、看海景，回来的时候在码头休息等游轮渡海回市区。\n\n",
+      "languages": null,
+      "categories": ["life"],
+      "tags": ["moment"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "python 统计文件个数脚本",
+      "permalink": "https://sparanoid.com/python-file-system-script.html",
+      "link": "https://sparanoid.com/python-file-system-script.html",
+      "date": "2016-08-06T00:00:00-07:00",
+      
+      "author": {
+        "name": "Day",
+        "url": "http://niceday.me/",
+        "email": "daychen013@gmail.com"
+      },
+      "content": "场景\n\n想知道放在某个server 上面所有测试用例的个数（测试用例都是创建为sample.xml的格式文件）\n\n脚本目的\n\n统计某目录下所有子文件夹中xxx.xml 的个数\n\npython 脚本实现\n\nimport os,shutil\n\n#print os.getcwd()\n\n\nsourceRootFolder=\"D:\\Automation\\TestSuites\\polaris\"\n\ncount=0\nfilecount=0\n\nfor f in os.listdir(sourceRootFolder):\n  tmpdir=os.path.join(sourceRootFolder, f)\n  if f.startswith(\"T\"):\n    count=count+1\n    newpath=os.path.join(tmpdir,\"Scenarios\")\n    print (newpath)\n    for sf in os.listdir(newpath):\n      if os.path.isfile(os.path.join(newpath,sf))  and sf.endswith(\".xml\") :\n        filecount=filecount+1\n\n\nprint (count,\" test suites in total\")\nprint (filecount,\"test Scenarios in total\")\n\n\n",
+      "excerpt": "场景\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["python"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "python note",
+      "permalink": "https://sparanoid.com/python-note.html",
+      "link": "https://sparanoid.com/python-note.html",
+      "date": "2016-08-05T00:00:00-07:00",
+      
+      "author": {
+        "name": "Day",
+        "url": "http://niceday.me/",
+        "email": "daychen013@gmail.com"
+      },
+      "content": "\n  install\n\n\n\n  website: https://www.python.org/\n  version: 2.7.1\n  install: run the msi install package and do not forget to check the options of “pip” and “add python.exe to Path”\n  path: C:\\Python27\n  exit()\n  excute python file  in Mac/Linux start with\n\n\n#!/usr/bin/env python　\n\n\n\n\n  cons\n\n\n解释性语言，运行慢\n无法加密\n\n\n  basic\n\n\na. input/output\n\nname=raw_input(\"enter your name:\")\nprint \"hi\",name\n\n\n\nb. 缩进的语句视为代码块\n\nc. 大小写敏感\n\nd. 转义字符\\ 标识字符串内部特殊字符\n\nprint \"I\\'m learning \\nPython\"\nprint r\"I\\'m learning \\nPython\"\nprint \"\"\"line1\nline2\nline3\n\"\"\"\n\n\ne. 全部大写的变量名表示常量\n\nf. 编码\n\n源码中包含中文的时候，保存用UTF-8 编码（可变长编码），文件头添加以下两行， 用于读取源码时使用UTF-8编码读取文本\n\n#! /usr/bin/env python\n# -*- coding: utf-8 -*-\n\nprint u\"这\".encode(\"utf-8\")\n\n\n\ng. 格式化\n\n%用来格式化字符串\n\nprint \"hi, %s aged %d\" %(\"day\", 25)\n\n\nh. list\n\n一个有序可变的列表\n\n\nline1=[\"lily\", 23, True]\nteam=[\"a\",\"bcd\",line1]\nprint len(team)\n\n#access the element\nprint team[2][2]\nprint \"the first element %s\" %(team[0])\nprint  \"last element %s and the second last element %s\" %(team[-1],team[-2])\n\n#add/insert element\nteam.append(\"ij\")\nteam.insert(1,\"someone\")\nprint team\n\n#delete element \nteam.pop()\nprint team\nteam.pop(0)\nprint team\n\n#replace element\nteam[2]=\"newone\"\n\nprint team\n\n#empty list\nemptyteam=[]\nprint len(emptyteam)\n\n\n不可变的列表tuple，初始化后不改变，无append/insert 等方法，代码更加安全\n\n#tuple\nrow=(\"to\",\"two\",2)\n\n#tuple with one element\nrow2=(1,)\n\nprint row[2]\n\n\ni. 条件判断\n\nbirth=int(raw_input(\"birth:\"))\nif birth&gt;2000:\n  print \"child of\", birth\nelif birth&gt;1990:\n  print \"young of\", birth\nelse:\n  print \"old\", birth\n\n\nj. 循环\n\n#for \nsum=0\nfor x in range(101):\n  sum=sum+x\nprint sum\n\n#while \nsum=0\nn=99\nwhile n&gt;0:\n  n=n-2\n  sum=sum+n\nprint sum\n\n\nk. dictionary\nkey-value 存储方式\n\n#dictionary\nroster={'angel':10,'simon':20,'tony':30}\nprint roster['simon']\n\n#delete key\nroster.pop('tony')\nprint roster\n\n#set which store key only\ns=set([1,2,3])\ns.add(4)\nprint s\n\ns.remove(4)\nprint s\n\n\n　\n",
+      "excerpt": "\n  install\n\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["python"]
+    }
+    
+  
+
+  
+    ,
+    {
+      "title": "Markdown Features Test",
+      "permalink": "https://sparanoid.com/markdown-features-test.html",
+      "link": "https://sparanoid.com/markdown-features-test.html",
+      "date": "2014-06-06T00:00:00-07:00",
+      
+      "author": {
+        "name": "Day",
+        "url": "http://niceday.me/",
+        "email": "daychen013@gmail.com"
+      },
+      "content": "Indented Code Blocks\n\ndef show\n  @widget = Widget(params[:id])\n  respond_to do |format|\n    format.html # show.html.erb\n    format.json { render json: @widget }\n  end\nend\n\n\n\nLiquid Tag with linenos Support\n\n1\n2\n3\n4\n5\n6\n7def show\n  @widget = Widget(params[:id])\n  respond_to do |format|\n    format.html # show.html.erb\n    format.json { render json: @widget }\n  end\nend\n\n\nGFM Code Blocks (fenced_code_blocks)\n\n/* Background color function */\n.code-bg (@v) when (lightness(@v) &gt;= 50%) {\n  @return-bg: mix(#000, lighten(@v, 30%), 10%);\n}\n.code-bg (@v) when (lightness(@v) &lt; 50%) {\n  @return-bg: mix(#fff, darken(@v, 10%), 70%);\n}\n\n\n\nSmartyPants\n\n“Aha! What’s up, man?” – Jony said.\n\nTables\n\n\n  \n    \n      Name\n      Upvotes\n      Downvotes\n      Abstentions\n    \n  \n  \n    \n      Alice\n      10\n      11\n      2\n    \n    \n      Bob\n      4\n      3\n      1\n    \n    \n      Charlie\n      7\n      9\n      4\n    \n    \n      Totals\n      21\n      23\n      7\n    \n  \n\n\nIntra-emphasis\n\nfoo_bar_baz\n\nAuto-link\n\nhttp://sparanoid.com/\n\nStrikethroughs\n\nThis is good bad.\n\nSpace after Headers\n\n###This is not a header.\n\nSuperscripts\n\nThis is the 2^(nd) time.\n\nFootnotes\n\nThis1 is2 a sentence3.\n\nID 日本語タイトル\n\nExpected id should be id-ri-ben-yu-taitoru.\n\nID 中文標題\n\nExpected id should be id-zhong-wen-biao-ti.\n\n\n  \n    \n      Lorem lean startup ipsum product market fit customer development acquihire technical cofounder. User engagement A/B testing shrink a market venture capital pitch deck. Social bookmarking group buying crowded market pivot onboarding freemium prototype ping pong. Early stage disruptive ecosystem community outreach dynamic location based strategic investor. &#8617;&#xfe0e;\n    \n    \n      An Important Announcement by Richard Ziade at Readability &#8617;&#xfe0e;\n    \n    \n      Good afterble constanoon, this sweet hongi is as bung as a stuffed morepork. Mean while, in the marae, Dr Ropata and Hairy Maclary from Donaldson’s Dairy were up to no good with a bunch of bloody troties. &#8617;&#xfe0e;\n    \n  \n\n",
+      "excerpt": "Indented Code Blocks\n\n",
+      "languages": null,
+      "categories": ["note"],
+      "tags": ["miscellaneous"]
+    }
+    
+  
+
+
+]

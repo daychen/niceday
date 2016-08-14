@@ -1,0 +1,21 @@
+---
+layout: page
+title: Life
+permalink: /life/
+desc: travel・朝花不夕拾
+---
+
+
+<div class="page-content">
+    <h2>碎片</h2>
+    {% for post in site.tags.moment %}
+      {% include themes/{{ site.theme }}/includes/page-item.html %}
+    {% endfor %}
+
+    <h2>旅行</h2>
+    {% for post in site.tags.travel %}
+      {% include themes/{{ site.theme }}/includes/page-item.html %}
+    {% endfor %}
+
+
+  </div>

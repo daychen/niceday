@@ -1,0 +1,22 @@
+---
+layout: page
+title: Work
+permalink: /work/
+desc: Mobile・术业有专攻
+---
+
+
+<div class="page-content">
+    <h2>自动化</h2>
+    {% for post in site.tags.getting-started %}
+      {% include themes/{{ site.theme }}/includes/page-item.html %}
+    {% endfor %}
+
+    <h2>iOS</h2>
+    {% for post in site.tags.customization %}
+      {% include themes/{{ site.theme }}/includes/page-item.html %}
+    {% endfor %}
+
+    <h2>MonkeyTalk</h2>
+   
+  </div>
