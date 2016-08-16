@@ -14,7 +14,7 @@ permalink:      /:title.html
 markdown:       kramdown
 highlighter:    rouge
 include:        ["_pages"]
-# exclude:        ["_pages/themes"]
+exclude:        ["_pages/themes"]
 
 #
 # Jekyll serve settings
@@ -80,7 +80,7 @@ description:    Have a nice day
 # the production site URL is http://sparanoid.com/lab/version/, set `base` to
 # `/lab/version/24`, without trailing slash.
 # Default:      ""
-base:           /app
+base:           /
 
 # CSS path used in templates
 # Default:      /assets
