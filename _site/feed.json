@@ -69,9 +69,31 @@
   
     
     {
+      "title": "New Zealand",
+      "permalink": "http:www.niceday.me/NZ-prep.html",
+      "link": "http:www.niceday.me/NZ-prep.html",
+      "date": "2016-08-16T00:00:00-07:00",
+      
+      "author": {
+        "name": "Day",
+        "url": "http://niceday.me/",
+        "email": "daychen013@gmail.com"
+      },
+      "content": "机票\n\n手机卡／上网\n\n交通\n",
+      "excerpt": "机票\n\n",
+      "languages": null,
+      "categories": ["life"],
+      "tags": ["travel"]
+    }
+    
+  
+
+  
+    ,
+    {
       "title": "突然想起那个中东的盆友",
-      "permalink": "https://sparanoid.com/One.html",
-      "link": "https://sparanoid.com/One.html",
+      "permalink": "http:www.niceday.me/One.html",
+      "link": "http:www.niceday.me/One.html",
       "date": "2016-08-14T00:00:00-07:00",
       
       "author": {
@@ -92,8 +114,8 @@
     ,
     {
       "title": "路遇周华健",
-      "permalink": "https://sparanoid.com/Met-Star-when-hiking.html",
-      "link": "https://sparanoid.com/Met-Star-when-hiking.html",
+      "permalink": "http:www.niceday.me/Met-Star-when-hiking.html",
+      "link": "http:www.niceday.me/Met-Star-when-hiking.html",
       "date": "2016-08-13T00:00:00-07:00",
       
       "author": {
@@ -114,8 +136,8 @@
     ,
     {
       "title": "python 统计文件个数脚本",
-      "permalink": "https://sparanoid.com/python-file-system-script.html",
-      "link": "https://sparanoid.com/python-file-system-script.html",
+      "permalink": "http:www.niceday.me/python-file-system-script.html",
+      "link": "http:www.niceday.me/python-file-system-script.html",
       "date": "2016-08-06T00:00:00-07:00",
       
       "author": {
@@ -136,8 +158,8 @@
     ,
     {
       "title": "python note",
-      "permalink": "https://sparanoid.com/python-note.html",
-      "link": "https://sparanoid.com/python-note.html",
+      "permalink": "http:www.niceday.me/python-note.html",
+      "link": "http:www.niceday.me/python-note.html",
       "date": "2016-08-05T00:00:00-07:00",
       
       "author": {
@@ -157,9 +179,31 @@
   
     ,
     {
+      "title": "Japan",
+      "permalink": "http:www.niceday.me/japan-1.html",
+      "link": "http:www.niceday.me/japan-1.html",
+      "date": "2015-08-28T00:00:00-07:00",
+      
+      "author": {
+        "name": "Day",
+        "url": "http://niceday.me/",
+        "email": "daychen013@gmail.com"
+      },
+      "content": "\n\t\n\n\n\n\n  \n  \n\n   \n\n\n  \n\n  \n\n\n奈良\n\n\n  大阪难波乘近铁奈良线快速急行到近铁奈良站（43min，￥560）\n\n\n“比京都更古老的首都，把鹿當作神的使者”\n\n\n  寄存行李，奈良公园看鹿\n  「依水园」(isuien)参观，九点半开放，前园由兴福寺的摩尼珠院遗迹构成，后园是借以若草山、春日山、东大寺南大门为远景的「池泉回游式庭园」\n\n\n“名园依绿水，野竹上青霄”\n\n\n  \n    「春日大社」(kasugataisha shrine)是为守护都城平城京而修建的神社， 社内紫藤有名\n众大寺中，最辉煌宏大的莫过于大华严寺，又称金光明四大天王寺，即俗称的「东大寺」(todaiji)。东大寺金堂不但是现存世界上体量最大的木建筑，而且是保存奈良时期古建筑最多的寺院\n  \n  奈良有限定的萌萌的贴纸可以买\n  奈良近铁到京都，观光案内所印章！\n  京都车站二楼观光案内所可以拿地图\n\n\n\n\n",
+      "excerpt": "\n\t\n",
+      "languages": null,
+      "categories": ["life"],
+      "tags": ["travel"]
+    }
+    
+  
+
+  
+    ,
+    {
       "title": "Markdown Features Test",
-      "permalink": "https://sparanoid.com/markdown-features-test.html",
-      "link": "https://sparanoid.com/markdown-features-test.html",
+      "permalink": "http:www.niceday.me/markdown-features-test.html",
+      "link": "http:www.niceday.me/markdown-features-test.html",
       "date": "2014-06-06T00:00:00-07:00",
       
       "author": {

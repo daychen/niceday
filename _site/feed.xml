@@ -67,16 +67,16 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Nice Day</title>
   <subtitle>Have a nice day</subtitle>
-  <updated>2016-08-14T04:40:32-07:00</updated>
-  <id>https://sparanoid.com/</id>
+  <updated>2016-08-16T07:50:29-07:00</updated>
+  <id>http:www.niceday.me/</id>
   <generator uri="http://sparanoid.com/lab/amsf/" version="0.1.11">Almace Scaffolding</generator>
 
-  <link rel="alternate" type="text/html" hreflang="en" href="https://sparanoid.com/" />
-  <link rel="self" type="application/atom+xml" href="https://sparanoid.com/feed.xml" />
+  <link rel="alternate" type="text/html" hreflang="en" href="http:www.niceday.me/" />
+  <link rel="self" type="application/atom+xml" href="http:www.niceday.me/feed.xml" />
 
   <author>
     <name>Day</name>
-    <uri>https://sparanoid.com/</uri>
+    <uri>http:www.niceday.me/</uri>
     <email>daychen013@gmail.com</email>
   </author>
 
@@ -87,9 +87,50 @@
       
 
       <entry>
+        <title>New Zealand</title>
+        <id>http:www.niceday.me/NZ-prep.html</id>
+        <link rel="alternate" type="text/html" href="http:www.niceday.me/NZ-prep.html" />
+        <published>2016-08-16T00:00:00-07:00</published>
+
+        
+          <updated>2016-08-16T00:00:00-07:00</updated>
+        
+
+        <author>
+          <name>Day</name>
+          <uri>http://niceday.me/</uri>
+          <email>daychen013@gmail.com</email>
+        </author>
+
+        <content type="html" xml:base="http:www.niceday.me/">
+          
+            &lt;h4 id=&quot;ji-piao-&quot;&gt;机票&lt;/h4&gt;
+
+&lt;h4 id=&quot;shou-ji-qia-shang-wang-&quot;&gt;手机卡／上网&lt;/h4&gt;
+
+&lt;h4 id=&quot;jiao-tong-&quot;&gt;交通&lt;/h4&gt;
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>机票</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
         <title>突然想起那个中东的盆友</title>
-        <id>https://sparanoid.com/One.html</id>
-        <link rel="alternate" type="text/html" href="https://sparanoid.com/One.html" />
+        <id>http:www.niceday.me/One.html</id>
+        <link rel="alternate" type="text/html" href="http:www.niceday.me/One.html" />
         <published>2016-08-14T00:00:00-07:00</published>
 
         
@@ -102,7 +143,7 @@
           <email>daychen013@gmail.com</email>
         </author>
 
-        <content type="html" xml:base="https://sparanoid.com/">
+        <content type="html" xml:base="http:www.niceday.me/">
           
             &lt;p&gt;第一次见到伊朗老外，是在mega session上，人家一身西装革履，咋一看以为成功人士呢，然后狗腿的握了握手。&lt;/p&gt;
 
@@ -144,8 +185,8 @@ being a model&quot;&lt;/span&gt;
 
       <entry>
         <title>路遇周华健</title>
-        <id>https://sparanoid.com/Met-Star-when-hiking.html</id>
-        <link rel="alternate" type="text/html" href="https://sparanoid.com/Met-Star-when-hiking.html" />
+        <id>http:www.niceday.me/Met-Star-when-hiking.html</id>
+        <link rel="alternate" type="text/html" href="http:www.niceday.me/Met-Star-when-hiking.html" />
         <published>2016-08-13T00:00:00-07:00</published>
 
         
@@ -158,7 +199,7 @@ being a model&quot;&lt;/span&gt;
           <email>daychen013@gmail.com</email>
         </author>
 
-        <content type="html" xml:base="https://sparanoid.com/">
+        <content type="html" xml:base="http:www.niceday.me/">
           
             &lt;p&gt;陈姐去最南端的蒲台岛玩，爬山、看海景，回来的时候在码头休息等游轮渡海回市区。&lt;/p&gt;
 
@@ -188,8 +229,8 @@ being a model&quot;&lt;/span&gt;
 
       <entry>
         <title>python 统计文件个数脚本</title>
-        <id>https://sparanoid.com/python-file-system-script.html</id>
-        <link rel="alternate" type="text/html" href="https://sparanoid.com/python-file-system-script.html" />
+        <id>http:www.niceday.me/python-file-system-script.html</id>
+        <link rel="alternate" type="text/html" href="http:www.niceday.me/python-file-system-script.html" />
         <published>2016-08-06T00:00:00-07:00</published>
 
         
@@ -202,7 +243,7 @@ being a model&quot;&lt;/span&gt;
           <email>daychen013@gmail.com</email>
         </author>
 
-        <content type="html" xml:base="https://sparanoid.com/">
+        <content type="html" xml:base="http:www.niceday.me/">
           
             &lt;h2 id=&quot;chang-jing-&quot;&gt;场景&lt;/h2&gt;
 
@@ -259,8 +300,8 @@ being a model&quot;&lt;/span&gt;
 
       <entry>
         <title>python note</title>
-        <id>https://sparanoid.com/python-note.html</id>
-        <link rel="alternate" type="text/html" href="https://sparanoid.com/python-note.html" />
+        <id>http:www.niceday.me/python-note.html</id>
+        <link rel="alternate" type="text/html" href="http:www.niceday.me/python-note.html" />
         <published>2016-08-05T00:00:00-07:00</published>
 
         
@@ -273,7 +314,7 @@ being a model&quot;&lt;/span&gt;
           <email>daychen013@gmail.com</email>
         </author>
 
-        <content type="html" xml:base="https://sparanoid.com/">
+        <content type="html" xml:base="http:www.niceday.me/">
           
             &lt;ol&gt;
   &lt;li&gt;install&lt;/li&gt;
@@ -458,9 +499,95 @@ key-value 存储方式&lt;/p&gt;
       
 
       <entry>
+        <title>Japan</title>
+        <id>http:www.niceday.me/japan-1.html</id>
+        <link rel="alternate" type="text/html" href="http:www.niceday.me/japan-1.html" />
+        <published>2015-08-28T00:00:00-07:00</published>
+
+        
+          <updated>2015-08-28T00:00:00-07:00</updated>
+        
+
+        <author>
+          <name>Day</name>
+          <uri>http://niceday.me/</uri>
+          <email>daychen013@gmail.com</email>
+        </author>
+
+        <content type="html" xml:base="http:www.niceday.me/">
+          
+            &lt;head&gt;
+	&lt;style&gt;
+	
+
+
+	&lt;/style&gt;
+&lt;/head&gt;
+
+&lt;article&gt;
+
+  &lt;!-- Post title --&gt;
+  &lt;header style=&quot;
+  background-image: url(&#39;/assets/img/jp.jpg&#39;);background-size:cover&quot;&gt;
+
+   &lt;!--  &lt;h1 style=&quot;color:#ECF5FF&quot;&gt;
+Japan    &lt;/h1&gt; --&gt;
+
+
+  &lt;/header&gt;
+
+  
+&lt;/article&gt;
+
+&lt;h4 id=&quot;nai-liang-&quot;&gt;奈良&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;大阪难波乘近铁奈良线快速急行到近铁奈良站（43min，￥560）&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;“比京都更古老的首都，把鹿當作神的使者”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;寄存行李，奈良公园看鹿&lt;/li&gt;
+  &lt;li&gt;「依水园」(isuien)参观，九点半开放，前园由兴福寺的摩尼珠院遗迹构成，后园是借以若草山、春日山、东大寺南大门为远景的「池泉回游式庭园」&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;“名园依绿水，野竹上青霄”&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;
+    &lt;p&gt;「春日大社」(kasugataisha shrine)是为守护都城平城京而修建的神社， 社内紫藤有名
+众大寺中，最辉煌宏大的莫过于大华严寺，又称金光明四大天王寺，即俗称的「东大寺」(todaiji)。东大寺金堂不但是现存世界上体量最大的木建筑，而且是保存奈良时期古建筑最多的寺院&lt;/p&gt;
+  &lt;/li&gt;
+  &lt;li&gt;奈良有限定的萌萌的贴纸可以买&lt;/li&gt;
+  &lt;li&gt;奈良近铁到京都，观光案内所印章！&lt;/li&gt;
+  &lt;li&gt;京都车站二楼观光案内所可以拿地图&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/img/deer.jpg&quot; alt=&quot;&quot; /&gt;&lt;/p&gt;
+
+
+          
+          
+        
+      
+        </content>
+
+        
+          <summary>	</summary>
+        
+      </entry>
+    
+  
+    
+      
+
+      
+
+      <entry>
         <title>Markdown Features Test</title>
-        <id>https://sparanoid.com/markdown-features-test.html</id>
-        <link rel="alternate" type="text/html" href="https://sparanoid.com/markdown-features-test.html" />
+        <id>http:www.niceday.me/markdown-features-test.html</id>
+        <link rel="alternate" type="text/html" href="http:www.niceday.me/markdown-features-test.html" />
         <published>2014-06-06T00:00:00-07:00</published>
 
         
@@ -473,7 +600,7 @@ key-value 存储方式&lt;/p&gt;
           <email>daychen013@gmail.com</email>
         </author>
 
-        <content type="html" xml:base="https://sparanoid.com/">
+        <content type="html" xml:base="http:www.niceday.me/">
           
             &lt;h2 id=&quot;indented-code-blocks&quot;&gt;Indented Code Blocks&lt;/h2&gt;
 
