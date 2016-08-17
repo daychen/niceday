@@ -20,7 +20,7 @@ exclude:        ["_pages/themes"]
 # Jekyll serve settings
 #
 
-port:           4321
+#port:           4321
 
 #
 # Jekyll build settings
