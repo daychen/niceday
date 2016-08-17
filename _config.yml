@@ -16,6 +16,8 @@ highlighter:    rouge
 include:        ["_pages"]
 exclude:        ["_pages/themes"]
 
+
+theme:          curtana
 #
 # Jekyll serve settings
 #
